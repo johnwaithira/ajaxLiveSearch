@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax Live search</title>
+    <link rel="stylesheet" href="./ajax.css">
+    <script src="./jquery.js"></script>
+</head>
+<body >
+    <main>
+        <form  method="post" id="form" autocomplete="off">
+            <div class="search-box">
+            <input type="search" id="textSearch" name="search" placeholder="Search here">
+            <button type="submit">Search</button>
+            </div>
+        </form>
+        <div class="result-div">
+            <div class="result"></div>
+        </div>
+    </main>
+    <div footer="../footer.html"></div>
+    <script src="./ajax.js"></script>
+    <script>
+        getElem("footer");
+    </script>
+</body>
+</html>
